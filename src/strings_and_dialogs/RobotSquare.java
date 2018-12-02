@@ -12,22 +12,22 @@ public class RobotSquare {
     public static void main(String[] args) throws Exception {
  
     	// 1. Make a new Robot
-
+Robot John = new Robot();
 
         // 3. Put the robot's pen down
-
+John.penDown();
 
         // 6. Make the robot move as fast as possible
-
+John.setSpeed(100);
 
         // 5. Do everything below here 4 times
-
+for(int i=0; i<4; i++) {
 
         //         2. Move your robot 200 pixels
-
+John.move(200);
 
         //         4. Turn the robot 90 degrees to the right (90 degrees)
-
-
+John.turn(90);
+}
     }
 }
